@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // save to firebase
         btnSave.setOnClickListener {
              connectTOFireBase()
         }
