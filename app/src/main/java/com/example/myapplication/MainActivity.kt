@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // save to firebase
+        //Mahmoud
         btnSave.setOnClickListener {
              connectTOFireBase()
         }
