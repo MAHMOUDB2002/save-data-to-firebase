@@ -19,8 +19,6 @@ class MainActivity : AppCompatActivity() {
         btnSave.setOnClickListener {
              connectTOFireBase()
         }
-
-
     }
 
     fun connectTOFireBase() {
@@ -45,7 +43,6 @@ class MainActivity : AppCompatActivity() {
 
                 .addOnFailureListener {
                     Toast.makeText(this, "Failed to upload", Toast.LENGTH_SHORT).show()
-
                 }
         }else{
             Toast.makeText(this, "Please fill all fields", Toast.LENGTH_SHORT).show()
