@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:layout_height="match_parent"
+    tools:context=".RealTimeDatabaseActivity">
+
+    <EditText
+        android:id="@+id/txtname"
+        android:layout_width="match_parent"
+        android:hint="User Name"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:inputType="textPersonName"/>
+
+
+
+    <EditText
+        android:id="@+id/txtId"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Person Id"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/txtAge"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Person Age"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:inputType="number"/>
+
+
+
+    <Button
+        android:textColor="@color/black"
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:background="@color/teal_200"
+        android:text="Save data to real time"/>
+
+
+    <Button
+        android:textColor="#FF5722"
+        android:id="@+id/btnGetData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:background="@color/teal_200"
+        android:textSize="15sp"
+        android:text="get data from real time"/>
+
+    <TextView
+        android:id="@+id/txtData"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_height="match_parent"/>
+
+
+
+</LinearLayout>
